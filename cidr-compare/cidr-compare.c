@@ -220,7 +220,6 @@ void dump_intersection (INIT *init, LIST *ilists, unsigned long int v, int bit)
       LIST *next = LAST;
       while (current != LAST) {
         next = current->next;
-//        free(current);
         current = next;
       }
       return;
@@ -248,7 +247,6 @@ void dump_intersection (INIT *init, LIST *ilists, unsigned long int v, int bit)
       LIST *next = LAST;
       while (current != LAST) {
         next = current->next;
-//        free(current);
         current = next;
       }
       return;
@@ -259,7 +257,6 @@ void dump_intersection (INIT *init, LIST *ilists, unsigned long int v, int bit)
       LIST *next = LAST;
       while (current != LAST) {
         next = current->next;
-//        free(current); 
         current = next;
       }
       abort();

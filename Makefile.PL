@@ -5,10 +5,10 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     NAME              => 'Net::CIDR::Compare',
     VERSION_FROM      => 'lib/Net/CIDR/Compare.pm', # finds $VERSION
-    PREREQ_PM         => {}, # e.g., Module::Name => 1.1
+    PREREQ_PM         => {Net::CIDR => 0.11, Net::Netmask => 1.9013},
     ($] >= 5.005 ?     ## Add these new keywords supported since 5.005
       (ABSTRACT_FROM  => 'lib/Net/CIDR/Compare.pm', # retrieve abstract from module
-       AUTHOR         => 'root <root@localdomain>') : ()),
+       AUTHOR         => 'Gregory Jones <grjones@gmail.com>') : ()),
     LIBS              => [''], # e.g., '-lm'
     DEFINE            => '', # e.g., '-DHAVE_SOMETHING'
     INC               => '-I. -I./cidr-compare', # e.g., '-I. -I/usr/include/other'

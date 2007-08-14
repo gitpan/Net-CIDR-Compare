@@ -31,7 +31,7 @@ our @EXPORT = qw(
 	
 );
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 sub AUTOLOAD {
     # This AUTOLOAD is used to 'autoload' constants from the constant()
@@ -313,7 +313,7 @@ __END__
 
 =head1 NAME
 
-  Net::CIDR::Compare - Find intersections across multiple lists of CIDR ranges, fast.
+Net::CIDR::Compare - Find intersections across multiple lists of CIDR ranges, fast.
 
 =head1 SYNOPSIS
 
@@ -410,7 +410,7 @@ __END__
 
 =head1 LICENSE  
 
-  Sections of this code was obtained from a C program called cidr-convert
+  Sections of this code were obtained from a C program called cidr-convert
   which can be found on numerous sites.  The sourcecode claimed to be of 
   "the public domain."  This code is also part of the public domain.
 

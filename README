@@ -1,16 +1,7 @@
 Net::CIDR::Compare
 ===============================
 
-The README is used to introduce the module and provide instructions on
-how to install the module, any machine dependencies it may have (for
-example C compilers and installed libraries) and any other information
-that should be provided before the module is installed.
-
-A README file is required for CPAN modules since CPAN extracts the
-README file from a module distribution so that people browsing the
-archive can use it get an idea of the modules uses. It is usually a
-good idea to provide version information here so that people can
-decide whether fixes for the module are worth downloading.
+See POD for module synopsis and description.
 
 INSTALLATION
 
@@ -25,16 +16,13 @@ DEPENDENCIES
 
 This module requires these other modules and libraries:
 
-  blah blah blah
+  Net::Netmask 1.9013
+  Net::CIDR 0.11
 
-COPYRIGHT AND LICENCE
+COPYRIGHT AND LICENSE
 
-Put the correct copyright and licence information here.
+Sections of this code were obtained from a C program called cidr-convert
+which can be found on numerous sites.  The sourcecode claimed to be of
+"the public domain."  This code is also part of the public domain.
 
-Copyright (C) 2007 by root
-
-This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself, either Perl version 5.8.5 or,
-at your option, any later version of Perl 5 you may have available.
-
-
+Please send feedback to grjones@gmail.com.
